@@ -1,5 +1,5 @@
-const theme = require('tailwindcss/defaultTheme');
 const typography = require('@tailwindcss/typography');
+const colors = require('tailwindcss/colors')
 
 //const colorBrand = 'var(--color-pretty)';
 
@@ -27,7 +27,15 @@ module.exports = {
       },
     ],
 		mode: 'all',
-		
+
+	},
+    theme: {
+		extend: {
+			colors: {
+				rose: colors.rose,
+				gray: colors.gray,
+			},
+		},
 	},
 	plugins: [ typography ]
 };
