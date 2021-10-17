@@ -1,4 +1,5 @@
-baseURL = "https://example.org"
+baseURL = "https://euphony.io"
+title = "Euphony"
 
 disableKinds = ["page", "section", "taxonomy", "term"]
 
